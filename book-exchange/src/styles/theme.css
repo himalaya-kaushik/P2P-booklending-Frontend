@@ -1,0 +1,18 @@
+/* src/styles/theme.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf4e3;
+    color: #333;
+  }
+  
+  button {
+    background-color: #ffeb3b;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #fbc02d;
+  }
+  
