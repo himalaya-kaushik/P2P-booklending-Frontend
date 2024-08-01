@@ -1,0 +1,7 @@
+/* Tailwind css import*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Leaflet import*/
+@import "leaflet/dist/leaflet.css";
