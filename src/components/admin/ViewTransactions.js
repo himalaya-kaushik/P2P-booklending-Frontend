@@ -1,14 +1,13 @@
 // src/components/admin/ViewTransactions.js
-import React, { useEffect, useState } from 'react';
-import { getTransactions } from '../../api/apiService';
+import React, { useEffect } from "react";
 
 const ViewTransactions = () => {
-  const [transactions, setTransactions] = useState([]);
+  // const [transactions, setTransactions] = useState([]);
 
   useEffect(() => {
     const fetchTransactions = async () => {
-      const response = await getTransactions();
-      setTransactions(response);
+      // const response = await getTransactions();
+      // setTransactions(response);
     };
     fetchTransactions();
   }, []);
@@ -16,11 +15,11 @@ const ViewTransactions = () => {
   return (
     <div className="container mx-auto">
       <h1 className="text-center text-2xl font-bold">View Transactions</h1>
-      <ul>
+      {/* <ul>
         {transactions.map((transaction) => (
           <li key={transaction.id}>{transaction.details}</li>
         ))}
-      </ul>
+      </ul> */}
     </div>
   );
 };

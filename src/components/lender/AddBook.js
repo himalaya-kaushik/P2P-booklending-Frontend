@@ -1,7 +1,7 @@
 // src/components/lender/AddBook.js
 import React, { useState } from "react";
 import FormControl from "../common/formControl";
-import { addBook } from "../../api/apiService";
+// import { addBook } from "../../api/apiService";
 
 const AddBook = () => {
   const [title, setTitle] = useState("");
@@ -9,8 +9,8 @@ const AddBook = () => {
   const [price, setPrice] = useState("");
 
   const handleAddBook = async () => {
-    const response = await addBook({ title, author, price });
-    console.log("Book added:", response);
+    // const response = await addBook({ title, author, price });
+    // console.log("Book added:", response);
   };
 
   return (
